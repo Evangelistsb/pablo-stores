@@ -1,0 +1,122 @@
+.App {
+    background-color: rgba(0, 0, 0, 0.842);
+    min-height: 100vh; 
+    color: white;   
+    display: flex;
+    flex-direction: column;
+}
+
+.pablo-header {
+    height: 150px;
+    background-color: rgb(109, 109, 0);
+    padding-top: 30px;
+}
+
+.header-title {
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.header-description {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+.pablo-body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.pablo-packages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pablo-footer {
+    background-color: rgba(0, 0, 0, 0.408);
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pablo-body {
+    padding: 30px;
+    display: flex;    
+}
+
+.p-card {        
+    background-color: rgba(0, 0, 255, 0.275);
+    height: 500px;
+    width: 350px;
+    margin: 10px;  
+}
+
+.p-card img {
+    height: 200px;
+    width: 350px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-title {
+    width: 60px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px;    
+}
+
+.name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.buyers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cost {    
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+}
+
+.buy-buttons {
+    display: flex;
+    justify-content: space-around;   
+    width: 100%; 
+}
+
+.buy-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-button {
+    height: 30px;
+    width: 95px;
+    background-color: black;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: rgb(89, 89, 89);
+}
