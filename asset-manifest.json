@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pablo-stores/static/css/main.6e154ed4.chunk.css",
+    "main.js": "/pablo-stores/static/js/main.2cfa7e38.chunk.js",
+    "main.js.map": "/pablo-stores/static/js/main.2cfa7e38.chunk.js.map",
+    "runtime-main.js": "/pablo-stores/static/js/runtime-main.54694223.js",
+    "runtime-main.js.map": "/pablo-stores/static/js/runtime-main.54694223.js.map",
+    "static/css/2.984f751f.chunk.css": "/pablo-stores/static/css/2.984f751f.chunk.css",
+    "static/js/2.27bec453.chunk.js": "/pablo-stores/static/js/2.27bec453.chunk.js",
+    "static/js/2.27bec453.chunk.js.map": "/pablo-stores/static/js/2.27bec453.chunk.js.map",
+    "index.html": "/pablo-stores/index.html",
+    "static/css/2.984f751f.chunk.css.map": "/pablo-stores/static/css/2.984f751f.chunk.css.map",
+    "static/css/main.6e154ed4.chunk.css.map": "/pablo-stores/static/css/main.6e154ed4.chunk.css.map",
+    "static/js/2.27bec453.chunk.js.LICENSE.txt": "/pablo-stores/static/js/2.27bec453.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54694223.js",
+    "static/css/2.984f751f.chunk.css",
+    "static/js/2.27bec453.chunk.js",
+    "static/css/main.6e154ed4.chunk.css",
+    "static/js/main.2cfa7e38.chunk.js"
+  ]
+}
