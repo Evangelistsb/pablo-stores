@@ -173,7 +173,6 @@ function App() {
 
   const buyPackage = async (index, _price, _percent) => {
     const check = confirm(packages[index].cost, packages[index].amountIn).includes(_percent);
-    console.log(check)
     if (!check) {
       alert("You have entered an invalid slot. Please try again");
       return

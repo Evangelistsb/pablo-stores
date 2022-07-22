@@ -44,6 +44,7 @@ contract PabloStores {
         require(bytes(_imageUrl).length > 0, "invalid imageUrl argument");
         require(bytes(_description).length > 0, "invalid description argument");
         require(msg.sender != address(0), "invalid caller");
+
         address[] memory buyers;
         uint256[] memory percentOut;
         uint256 amountIn = 0;
@@ -87,6 +88,7 @@ contract PabloStores {
         require((_percent >= 0) && (_percent <=100), "invalid percent value");
         
         Package storage package = packages[_index];        
+        require(msg.sender != package.seller, "Owner cannot buy back their products");
         uint256 amount = (package.cost * _percent) / 100;  
         bool success = _safeTransfer(msg.sender, package.seller, amount);
         require(success, "Failed to transfer"); 
@@ -106,12 +108,12 @@ contract PabloStores {
     function getAmountPaid(uint256 _index, address _buyer) public view returns (uint256) {
         require(_index < total, "index out of range");
         require(_buyer != address(0), "invalid buyer argument");
-        uint256 amountPaid = addressToAmountPaid[_index][_buyer];
-        return amountPaid;
+        return addressToAmountPaid[_index][_buyer];
     }
 
     // get length of all packages
     function getIndex() public view returns (uint256) {
         return total;
     }
+
 }
